@@ -41,15 +41,13 @@ body{
     font-size:22px;
 }
 
-.to_flex{
-    background-color:#A9D3FF;
+.to_flex{   
     display:flex;
     justify-content:space-between;
 }
 .to_flex_1{
     background-color:#93ACB5;
     padding:18px;
-    margin-top:5%;
     width:25%;
     display:flex;
     justify-content:space-between;
@@ -62,4 +60,29 @@ body{
 
 .to_flex_1 img{
     width:100%;
+}
+
+section{
+    margin-top:5%;
+    background-color:#A9D3FF;
+    padding:8px;
+}
+
+section h2{
+    text-align:center;
+    font-size:26px;
+}
+
+.to_flex_2_1{
+    background-color:#93ACB5;
+    padding:18px;
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+}
+
+.to_flex_2_1 p{
+    font-size:18px;
+    text-align:justify;
 }
