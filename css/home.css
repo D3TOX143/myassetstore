@@ -119,6 +119,20 @@ footer h3{
     flex-direction:column;
 }
 
+.footer_flex a img{
+    width:100px;
+}
+
 .to_flex_shoes img, .to_flex_glasses img, .to_flex_tshirt img, .to_flex_watches img, .to_flex_piano img, .to_flex_scooter img, .to_flex_laptop img, .to_flex_heater img{
     width:80%;
+}
+
+.to_flex_2_1 img{
+    border-radius:50%;
+    border:white solid 6px;
+}
+
+.nav button{
+    background-color:#6C756B;
+    border:none;
 }
