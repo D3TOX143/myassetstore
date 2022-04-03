@@ -107,3 +107,16 @@ footer h3{
     display:flex;
     justify-content:space-between;
 }
+
+.to_flex_products_1, .to_flex_products_2{
+    display:flex;
+    justify-content:space-between;
+}
+
+.to_flex_shoes, .to_flex_glasses, .to_flex_tshirt, .to_flex_watches{
+    width:50%;
+}
+
+.to_flex_shoes img, .to_flex_glasses img, .to_flex_tshirt img, .to_flex_watches img{
+    width:80%;
+}
