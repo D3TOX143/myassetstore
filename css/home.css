@@ -1,138 +1,154 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-.container{
-    max-width:1200px;
-    margin:auto;
+.container {
+   max-width: 1200px;
+   margin: auto;
 }
 
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:#96C5F7;
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: white;
 }
 
-.nav{
-    display:flex;
-    justify-content:space-between;
-    background-color:#6C756B;
-    padding:12px;
+.nav {
+   display: flex;
+   justify-content: space-between;
+   background-color: black;
+   padding: 12px;
 }
 
-.nav h1{
-    color:#F2F4FF;
+.nav h1 {
+   color: blue;
 }
 
-.nav_menu li{
-    list-style:none;
-    display:inline;
-    margin-left:24px;
+.nav_menu li {
+   list-style: none;
+   display: inline;
+   margin-left: 24px;
 }
 
-.nav_menu{
-    margin-top:6px;
+.nav_menu {
+   margin-top: 6px;
 }
 
-.nav_menu li a{
-    text-decoration:none;
-    color:#F2F4FF;
-    font-size:22px;
+.nav_menu li a {
+   text-decoration: none;
+   color: #f2f4ff;
+   font-size: 22px;
 }
 
-.to_flex, .to_flex_1_9{   
-    display:flex;
-    justify-content:space-between;
+.to_flex,
+.to_flex_1_9 {
+   display: flex;
+   justify-content: space-between;
 }
-.to_flex_1, .to_flex_1_1{
-    background-color:#93ACB5;
-    padding:18px;
-    width:25%;
-    display:flex;
-    justify-content:space-between;
-    flex-direction:column;
-}
-
-.to_flex_1 h2{
-    font-size:26px;
+.to_flex_1,
+.to_flex_1_1 {
+   background-color: #93acb5;
+   padding: 18px;
+   width: 25%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
 }
 
-.to_flex_1 img, .flex_1_1 img{
-    width:100%;
+.to_flex_1 h2 {
+   font-size: 26px;
 }
 
-section{
-    margin-top:5%;
-    background-color:#A9D3FF;
-    padding:8px;
+.to_flex_1 img,
+.flex_1_1 img {
+   width: 100%;
 }
 
-section h2{
-    text-align:center;
-    font-size:26px;
-    margin-top:5%;
+section {
+   margin-top: 5%;
+   background-color: lightgray;
+   padding: 8px;
 }
 
-.to_flex_2_1{
-    background-color:#93ACB5;
-    padding:18px;
-    width:25%;
-    display:flex;
-    justify-content:space-between;
-    flex-direction:column;
+section h2 {
+   text-align: center;
+   font-size: 26px;
+   margin-top: 5%;
 }
 
-.to_flex_2_1 p{
-    font-size:18px;
-    text-align:justify;
+.to_flex_2_1 {
+   background-color: #93acb5;
+   padding: 18px;
+   width: 25%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
 }
 
-.to_flex_2{
-    display:flex;
-    justify-content:space-between;
+.to_flex_2_1 p {
+   font-size: 18px;
+   text-align: justify;
 }
 
-footer{
-    background-color:#6C756B;
-    padding:12px;
-    color:#F2F4FF;
+.to_flex_2 {
+   display: flex;
+   justify-content: space-between;
 }
 
-footer h3{
-    color:#F2F4FF;
-}
-.footer_flex{
-    display:flex;
-    justify-content:flex-start;
+footer {
+   background-color: #6c756b;
+   padding: 12px;
+   color: #f2f4ff;
 }
 
-.to_flex_products_1, .to_flex_products_2, .to_flex_products_3, .to_flex_products_4{
-    display:flex;
-    justify-content:space-between;
+footer h3 {
+   color: #f2f4ff;
+}
+.footer_flex {
+   display: flex;
+   justify-content: flex-start;
 }
 
-.to_flex_shoes, .to_flex_glasses, .to_flex_tshirt, .to_flex_watches{
-    width:50%;
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
+.to_flex_products_1,
+.to_flex_products_2,
+.to_flex_products_3,
+.to_flex_products_4 {
+   display: flex;
+   justify-content: space-between;
 }
 
-.footer_flex a img{
-    width:100px;
+.to_flex_shoes,
+.to_flex_glasses,
+.to_flex_tshirt,
+.to_flex_watches {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
 }
 
-.to_flex_shoes img, .to_flex_glasses img, .to_flex_tshirt img, .to_flex_watches img, .to_flex_piano img, .to_flex_scooter img, .to_flex_laptop img, .to_flex_heater img{
-    width:80%;
+.footer_flex a img {
+   width: 100px;
 }
 
-.to_flex_2_1 img{
-    border-radius:50%;
-    border:white solid 6px;
+.to_flex_shoes img,
+.to_flex_glasses img,
+.to_flex_tshirt img,
+.to_flex_watches img,
+.to_flex_piano img,
+.to_flex_scooter img,
+.to_flex_laptop img,
+.to_flex_heater img {
+   width: 80%;
 }
 
-.nav button{
-    background-color:#6C756B;
-    border:none;
+.to_flex_2_1 img {
+   border-radius: 50%;
+   border: white solid 6px;
+}
+
+.nav button {
+   background-color: #6c756b;
+   border: none;
 }
